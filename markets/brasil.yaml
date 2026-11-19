@@ -1,0 +1,29 @@
+# Configuración de mercado: Brasil (pt-BR)
+# Para agregar otro país, crea un nuevo archivo YAML en /markets/<codigo>.yaml
+code: brasil
+name: Brasil
+country: BR
+language: pt-BR
+
+keywords:
+  - ebook
+  - e-book
+  - PDF
+  - guia completo
+  - método
+  - curso online
+  - planilha
+  - link na bio
+  - whop
+
+checkout_domains:
+  - hotmart.com
+  - kiwify.com.br
+  - eduzz.com
+  - monetizze.com.br
+  - braip.com
+  - perfectpay.com.br
+  - whop.com
+  - gumroad.com
+  - payhip.com
+  - stan.store

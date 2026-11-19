@@ -1,0 +1,71 @@
+# ==============================================================================
+# Motor de Puntuación AdScout (0 - 100)
+# ==============================================================================
+# IMPORTANTE: Meta NO publica ventas ni gasto de anuncios comerciales.
+# Este puntaje utiliza exclusivamente proxies observables y transparentes.
+# La suma de max_points debe ser 100.
+
+weights:
+  days_active:
+    max_points: 30
+    description: "Días activo del anuncio (longevidad sugiere rentabilidad sostenida)"
+    # Escala por tramos [días_mínimos -> puntos]
+    tiers:
+      - min_value: 90
+        points: 30
+      - min_value: 60
+        points: 25
+      - min_value: 30
+        points: 20
+      - min_value: 14
+        points: 14
+      - min_value: 7
+        points: 8
+      - min_value: 3
+        points: 4
+      - min_value: 1
+        points: 2
+
+  variants_count:
+    max_points: 20
+    description: "Cantidad de variantes activas/probadas del mismo anuncio"
+    tiers:
+      - min_value: 10
+        points: 20
+      - min_value: 6
+        points: 16
+      - min_value: 4
+        points: 12
+      - min_value: 2
+        points: 7
+      - min_value: 1
+        points: 2
+
+  page_active_ads:
+    max_points: 20
+    description: "Cantidad de anuncios activos de la misma página en este mercado"
+    tiers:
+      - min_value: 15
+        points: 20
+      - min_value: 8
+        points: 16
+      - min_value: 5
+        points: 12
+      - min_value: 3
+        points: 8
+      - min_value: 2
+        points: 5
+      - min_value: 1
+        points: 2
+
+  checkout_domain:
+    max_points: 15
+    description: "Enlace apunta a un dominio de checkout de productos digitales conocido"
+    match_points: 15
+    no_match_points: 0
+
+  keyword_match:
+    max_points: 15
+    description: "Coincidencia con palabras clave de producto digital del mercado"
+    points_per_match: 5
+    max_matches: 3

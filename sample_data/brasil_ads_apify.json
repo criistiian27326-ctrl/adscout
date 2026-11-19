@@ -1,0 +1,97 @@
+[
+  {
+    "adArchiveID": "br_1001",
+    "pageID": "pg_fit_01",
+    "pageName": "Academia Receita Fit BR",
+    "country": "BR",
+    "language": "pt-BR",
+    "startDate": "2026-08-10",
+    "isActive": true,
+    "publisherPlatform": ["FACEBOOK", "INSTAGRAM"],
+    "collationCount": 14,
+    "snapshot": {
+      "body": {
+        "text": "Descubra o ebook com 120 receitas low carb em PDF para secar em 21 dias. Guia completo passo a passo no link na bio!"
+      },
+      "title": "Ebook 120 Receitas Low Carb em PDF",
+      "cta_text": "Saiba mais",
+      "link_url": "https://pay.hotmart.com/X12345678?off=abc"
+    }
+  },
+  {
+    "adArchiveID": "br_1007",
+    "pageID": "pg_ia_03",
+    "pageName": "Comunidade IA Brasil",
+    "country": "BR",
+    "language": "pt-BR",
+    "startDate": "2026-08-25",
+    "isActive": true,
+    "publisherPlatform": ["INSTAGRAM", "FACEBOOK"],
+    "collationCount": 10,
+    "snapshot": {
+      "body": {
+        "text": "Entre na comunidade privada no Whop com prompts semanais, automações e curso online de IA para freelancers."
+      },
+      "title": "Comunidade IA para Freelancers no Whop",
+      "cta_text": "Entrar agora",
+      "link_url": "https://whop.com/ia-brasil-club/"
+    }
+  },
+  {
+    "adArchiveID": "br_2001",
+    "pageID": "pg_ia_03",
+    "pageName": "Comunidade IA Brasil",
+    "country": "BR",
+    "language": "pt-BR",
+    "startDate": "2026-10-15",
+    "isActive": true,
+    "publisherPlatform": ["INSTAGRAM"],
+    "collationCount": 6,
+    "snapshot": {
+      "body": {
+        "text": "Pack com 80 automações prontas e guia completo em PDF para agências. Disponível no Whop com acesso vitalício."
+      },
+      "title": "Pack Automações IA + Guia PDF (Whop)",
+      "cta_text": "Acessar agora",
+      "link_url": "https://whop.com/ia-brasil-club/automacoes"
+    }
+  },
+  {
+    "adArchiveID": "br_2002",
+    "pageID": "pg_not_09",
+    "pageName": "Notion Produtivo BR",
+    "country": "BR",
+    "language": "pt-BR",
+    "startDate": "2026-09-02",
+    "isActive": true,
+    "publisherPlatform": ["INSTAGRAM", "FACEBOOK"],
+    "collationCount": 5,
+    "snapshot": {
+      "body": {
+        "text": "Organize sua vida e seus projetos com nosso segundo cérebro no Notion + planilha de metas e e-book de produtividade."
+      },
+      "title": "Template Segundo Cérebro + Planilha de Metas",
+      "cta_text": "Comprar agora",
+      "link_url": "https://notionprodutivo.gumroad.com/l/segundo-cerebro"
+    }
+  },
+  {
+    "adArchiveID": "br_2003",
+    "pageID": "pg_soc_10",
+    "pageName": "Criador Digital Pro",
+    "country": "BR",
+    "language": "pt-BR",
+    "startDate": "2026-10-20",
+    "isActive": true,
+    "publisherPlatform": ["INSTAGRAM"],
+    "collationCount": 4,
+    "snapshot": {
+      "body": {
+        "text": "Calendário de conteúdo + 200 ganchos virais em PDF para crescer no Reels. Tudo no link na bio!"
+      },
+      "title": "200 Ganchos Virais em PDF",
+      "cta_text": "Ver oferta",
+      "link_url": "https://stan.store/criadordigitalpro"
+    }
+  }
+]
